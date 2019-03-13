@@ -1,0 +1,363 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: white;
+}
+.navbar .icon {
+  display: none;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #2C2828;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	position: fixed;
+	width: 100%;
+	top: 0%;
+	left: 0%;
+	right: 0%;
+}
+
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+	padding-bottom: 4px;
+  text-decoration: none;
+	
+}
+.logo{
+	width: 300px;
+	padding-top: 60px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	padding-bottom: 10px;
+}
+.dropdown {
+ float: left;
+ overflow: hidden;
+ font-size: 16px;
+ text-align: left;
+ 		
+}
+.w3-right{float:right!important}
+.logo{
+	
+}
+
+.pagination { margin-left: 27%; }
+.pagination a.first{ margin-left: 0; } 
+
+.dropdown .dropbtn {
+  border: none;
+	font-size: 16px;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+	background-color: transparent;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: transparent;
+	color: hotpink;
+	text-decoration: underline;
+	
+	
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+   z-index: 1;
+  left: 5%;
+  right: 4%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+	padding: 5px;
+	height: auto;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  background-color: #EFEFEF;
+  height: 270px;
+  top: 20%;
+  border-right: 1px solid #DEDEDE;
+  
+}
+
+.column a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: table-row;
+  font-size: 12px;
+  padding: 0px;
+  height: 25px;
+	padding-bottom: 5px;
+	
+}
+
+.column a:hover {
+  color: hotpink;
+	text-decoration: underline;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+	
+}
+h5{
+	color: black;
+	text-decoration: underline;
+}
+.signin{
+	padding: 0px;
+	font-size: 10px;
+	margin-top: 0%;
+	margin-bottom: 1%;
+}
+
+.offer{height: 30%;
+	width: 100%;
+	
+}
+/* Responsive layout */
+@media screen and (max-width: 700px) {
+  .column {
+    width: 25%;
+    height: 270px;
+  }
+	.dropdown .dropbtn {
+		font-size: 14px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 12px;
+	background-color: transparent;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+	.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+    z-index: 1;
+   left: 3%;
+  right: 3%;
+}
+.pagination { margin-left: 17%; }
+.pagination a.first{ margin-left: 0; }	
+}
+
+@media screen and (max-width: 550px) {
+  .column {
+    width: 70px;
+	  height: 270px;
+	}
+	 
+	.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  left:0;
+  z-index: 1;
+  margin-left: 5%;
+}
+	.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 8px;
+	background-color: transparent;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+	.pagination { margin-left: 2%; }
+.pagination a.first{ margin-left: 0; }
+}
+
+
+@media screen and (max-width: 405px) {
+  .column {
+    width: 70px;
+	  height: auto;
+	}
+  .pagination { margin-left: 8%; }
+  .pagination a.first{ margin-left: 0; } 
+	.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  left:0;
+  z-index: 1;
+  margin-left: 3%;
+}
+	.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 5px;
+	background-color: transparent;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+	.pagination { margin-left: 1%; }
+.pagination a.first{ margin-left: 0; }
+  .navbar a:not(:first-child),  
+  .dropbtn1 {
+    display: none;
+	  }
+  .navbar a.icon {
+    float: left;
+    display: block;
+	   }
+	}
+ .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display:block;
+    text-align: left;
+  }
+  .navbar.responsive {float: none;}
+  .navbar.responsive  {position: relative;}
+  .navbar.responsive {
+	display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+@media screen and (max-width: 350px) {
+  .column {
+    width: 50px;
+	  height: auto;
+	}
+  .pagination { margin-left: 1%; }
+  .pagination a.first{ margin-left: 0; } 
+	.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  left:0;
+  z-index: 1;
+  margin-left: 1%;
+}
+	.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 3px;
+	background-color: transparent;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		font-size: 11px;
+}
+
+  .navbar a:not(:first-child),  
+  .dropbtn1 {
+    display: none;
+	  }
+  .navbar a.icon {
+    float: left;
+    display: block;
+	   }
+	}
+ .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display:block;
+    text-align: left;
+  }
+  .navbar.responsive {float: none;}
+  .navbar.responsive  {position: relative;}
+  .navbar.responsive {
+	display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+
+  @media screen and (max-width: 250px) {
+  .column {
+    width: 40px;
+	  height: auto;
+	}
+  .pagination { margin-left: 0%; overflow: hidden;}
+  .pagination a.first{ margin-left: 0;} 
+	
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  left:0;
+  z-index: 1;
+  margin-left: 0%;
+		}
+	  .dropdown:focus .dropdown-content {
+  display: block;
+	padding: 5px;
+	height: auto;
+}
+	.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 3px;
+	background-color: transparent;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 11px;	
+}
+#sale.dropdown .dropbtn{
+	display: none;
+	overflow: hidden;
+}
+  .navbar a:not(:first-child),  
+  .dropbtn1 {
+    display: none;
+	  }
+  .navbar a.icon {
+    float: left;
+    display: block;
+	   }
+	}
+ .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display:block;
+    text-align: left;
+  }
+  .navbar.responsive {float: none;}
+  .navbar.responsive  {position: relative;}
+  .navbar.responsive {
+	display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+
+  

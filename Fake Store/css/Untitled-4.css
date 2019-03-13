@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*side bar*/
+
+
+#sidenav{
+	float: none;
+	width: 61%;
+	height: auto;
+	overflow: auto;
+	padding-left: 15%;
+	padding-top: 0px;
+	margin-left: 160px;
+	
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: snow;
+  overflow-x: hidden;
+  padding-top: 50px;
+  margin-top: 46px;
+}
+
+.sidenav a {
+  	padding: 6px 8px 6px 16px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	text-decoration: none;
+ 	font-size: 18px;
+ 	color: pink;
+ 	display: block;
+}
+
+.sidenav a:hover {
+  color: hotpink;
+}
+header {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+/* div for Links in header */
+#headerLinks {
+	float: left;
+	width: calc( 100% );
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+#headerLinks a {
+	text-decoration: none;
+	color: snow;
+	padding-left: 30px;
+	font-size: 14px;
+	padding-right: 10px;
+}
+/*Social Media links*/
+
+body{
+	background-color: pink;
+}
+
+/*Cover Photo*/
+
+.coverpic{
+	background-image: url( "../img/HOMEP-SPRING19-SHOPNOW2_2000x.jpg");
+ 	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+  	position: relative;
+	max-height: 700px;
+	height: 250px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom:10px;
+	padding-left: 10px;
+	
+}
+#offer {
+	
+	font-family: 'Montserrat', sans-serif;
+	clear: both;
+	margin-left: 160px;
+	max-width: 854px;
+	
+	
+}
+#bnt1{
+	font-family: 'Montserrat', sans-serif,;
+	text-decoration: none;
+	color: snow;
+	font-size: 12px;
+	
+}
+.bnt1{
+	position: absolute;
+  	top: 92%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+	padding: 5px 15px;
+	background-color: pink;
+	color:snow;
+	border: none;
+	
+	
+}
+
+
+
+
+
